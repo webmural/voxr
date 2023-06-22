@@ -1,0 +1,14 @@
+:root {
+  background: hotpink;
+  background-image: conic-gradient(hotpink, deeppink, violet, hotpink);
+  color: black;
+}
+
+:any-link {
+  color: inherit;
+}
+
+::selection {
+  background: black;
+  color: hotpink;
+}
